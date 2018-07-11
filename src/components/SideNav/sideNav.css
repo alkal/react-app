@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+    padding-left:0.65em;
+}
+
+li{
+    padding:12px 8px;
+}
+
+li+li{border-top:1px solid #666}
+
+.leftIcon{margin-right:6px;}
+
