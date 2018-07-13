@@ -1,0 +1,18 @@
+.newsListCard_item{
+    border:1px solid #f2f2f2;
+    background-color:#fff;
+    margin-top:0;
+    padding:15px;
+}
+
+.newsListCard_item h2{
+    font-size:16px;
+    line-height:21px;
+    margin:5px 0;
+    color:#525252;
+}
+
+.newsListCard_item a{
+    text-decoration:none;
+    color:#444;
+}

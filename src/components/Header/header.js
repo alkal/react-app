@@ -16,8 +16,7 @@ const Header = (props) => {
     }
 
     return(
-        <header className={style.header}>
-           
+        <header className={style.header}> 
            <SideNav {...props}/>
            <div className={style.headerOpt}>
                 {navBars()}

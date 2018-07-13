@@ -6,14 +6,13 @@ import {Link} from 'react-router-dom';
 
 const SliderTemplates = (props) => {
 
-    console.log(props.data);
-    
     const setting={
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        ...props.settings
     }
 
     const SlickItem=()=>{

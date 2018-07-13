@@ -1,0 +1,11 @@
+.loadBtn{
+    width:100%;
+    background-color: #3A85BA;
+    padding:10px;
+    border:0 none;
+    font-weight:bold;
+    color:#fff;
+    outline:none;
+    text-transform:uppercase;
+    text-align:center;
+}
