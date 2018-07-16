@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import {URL} from '../../config';
 import FontAwesome from 'react-fontawesome';
 
 export default class LabelTeam extends Component{
@@ -9,13 +10,21 @@ export default class LabelTeam extends Component{
     }
 
     componentWillMount(){
-        axios.get(`${URL}/teams`)
+        axios.get(`${URL}/teams/${this.props.teamId}`)
+        .then(response=>{
+            this.setState({
+                teamID:response.data.name
+            })
+        })
     }
     
     render(){
+       
         return(
             <div>
-                LabelTeam
+                <label>{this.state.teamID}</label>
+                <FontAwesome name="clock-o"/>{this.props.dateTime}
+                <FontAwesome name="user"/>{this.props.author}
             </div>
         )
     }

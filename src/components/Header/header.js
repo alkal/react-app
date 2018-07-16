@@ -20,9 +20,9 @@ const Header = (props) => {
            <SideNav {...props}/>
            <div className={style.headerOpt}>
                 {navBars()}
-                <Link to="/" className={style.logo}>
+                {/* <Link to="/" className={style.logo}>
                     <img alt="NBA Logo" src="/images/nba_logo.png"/>
-                </Link>
+                </Link> */}
            </div>
         </header>
     )
