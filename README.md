@@ -14,7 +14,7 @@ npm i
 3. Get a fake REST API
 
 ```bash
-json-server --watch db.json --post 3004
+json-server --watch db.json --port 3004
 ```
 
 4. Run `npm start` for a dev server.
