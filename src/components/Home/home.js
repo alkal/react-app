@@ -10,7 +10,8 @@ const Home = ()=>{
                 start={0}
                 amount={4}
                 settings={{
-                    dots: false
+                    dots: false,
+                    arrows:false
                 }}    
             />
             <NewsList 

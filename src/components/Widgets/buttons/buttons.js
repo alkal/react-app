@@ -1,5 +1,5 @@
 import React from 'react';
-//import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import styles from './buttons.css';
 
 const buttons=(props)=>{
@@ -14,6 +14,13 @@ const buttons=(props)=>{
                 >
                     {props.cta}
                 </div>
+            )
+            break;
+        case ('link'):
+            template=(
+                <Link to='{/videos}' className={styles.loadLink}>
+                    {props.cta}
+                </Link>
             )
             break;
         default:

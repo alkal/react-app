@@ -18,13 +18,29 @@ export default class LabelTeam extends Component{
         })
     }
     
+    displayDateTime=()=>{
+
+        return this.props.dateTime!=null?
+            <span><FontAwesome name="clock-o"/>{this.props.dateTime}</span>
+            :
+            null;
+    }
+
+    displayAuthor=()=>{
+        return this.props.author!=null?
+            <span><FontAwesome name="user"/>{this.props.author}</span>
+            :
+            null;
+    }
+
+    
     render(){
        
         return(
             <div>
                 <label>{this.state.teamID}</label>
-                <FontAwesome name="clock-o"/>{this.props.dateTime}
-                <FontAwesome name="user"/>{this.props.author}
+                {this.displayDateTime()}
+                {this.displayAuthor()}
             </div>
         )
     }

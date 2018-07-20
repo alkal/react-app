@@ -1,5 +1,4 @@
 .loadBtn{
-    width:100%;
     background-color: #3A85BA;
     padding:10px;
     border:0 none;
@@ -8,4 +7,15 @@
     outline:none;
     text-transform:uppercase;
     text-align:center;
+}
+
+.loadLink{
+    padding: 20px 0 10px;
+    border:0 none;
+    font-weight:bold;
+    outline:none;
+    text-transform:uppercase;
+    text-align:center;
+    display:block;
+    clear:both;
 }

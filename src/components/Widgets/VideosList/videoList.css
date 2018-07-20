@@ -1,0 +1,45 @@
+.videoList_wrapper h3{
+    text-align:center;
+    margin:20px 0;
+    color:#353535;
+    font-weight: 300;
+    font-size:21px;
+}
+
+.videosCardList_item{
+    border:1px solid #f2f2f2;
+    background-color:#fff;
+    margin-top:0;
+    padding:15px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.videosCardList_item h2{
+    font-size: 21px;
+    line-height: 21px;
+    margin: 5px 0 0 12px;
+    color: #525252;
+    float: left;
+    width: 70%;
+}
+
+.videosCardList_item img{
+    float: left;
+    width: 25%;
+}
+
+.videosCardList_item a:before{
+    content:'';
+    width: 64px;;
+    height:64px;
+    background-image: url('/images/play.png');
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);  
+}
+
+.videosCardList_item label{background-color:#cad7dc;color:#444;border-radius:3px;padding:4px 8px;margin:0 6px 0 12px;font-weight:bold;}
+.videosCardList_item span{display:inline-block;margin:0 4px 0 12px;}
