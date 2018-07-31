@@ -35,7 +35,7 @@ const SideNavItems = () =>{
 
 
     const showItems=()=>{
-        return items.map( (item,i) =>{
+        return items.map((item,i) =>{
             return(
                 <li key={i}>
                     <Link to={item.link}>

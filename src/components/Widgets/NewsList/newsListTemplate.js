@@ -28,7 +28,7 @@ const newsListTemplate=(props)=>{
                     </div>
                 )
             });
-            break;
+            break;          
         case('list'):
             template=props.data.map((item,i)=>{
                 return(
